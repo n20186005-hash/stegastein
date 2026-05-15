@@ -19,10 +19,15 @@ const photos = [
   { src: '/gallery/stegastein (13).jpg', alt: 'Stegastein full view' },
 ];
 
+const PHOTOS_PER_PAGE = 8;
+
 export default function Gallery() {
   const t = useTranslations('gallery');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(0);
+
+  const totalPages = Math.ceil(photos.length / PHOTOS_PER_PAGE);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -32,8 +37,21 @@ export default function Gallery() {
     setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
   }, []);
 
+  const goToPreviousPage = useCallback(() => {
+    setCurrentPage((prev) => (prev === 0 ? totalPages - 1 : prev - 1));
+  }, [totalPages]);
+
+  const goToNextPage = useCallback(() => {
+    setCurrentPage((prev) => (prev === totalPages - 1 ? 0 : prev + 1));
+  }, [totalPages]);
+
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
+
+  const getCurrentPagePhotos = () => {
+    const start = currentPage * PHOTOS_PER_PAGE;
+    return photos.slice(start, start + PHOTOS_PER_PAGE);
+  };
 
   return (
     <>
@@ -50,49 +68,72 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(0, 8).map((photo, i) => (
-                <div
-                  key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
-                  onClick={() => {
-                    setCurrentIndex(i);
-                    openLightbox();
-                  }}
-                >
-                  <img
-                    src={photo.src}
-                    alt={photo.alt}
-                    className="w-full h-full object-cover rounded-lg"
-                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
-                    <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
-                    </p>
+              {getCurrentPagePhotos().map((photo, i) => {
+                const actualIndex = currentPage * PHOTOS_PER_PAGE + i;
+                return (
+                  <div
+                    key={actualIndex}
+                    className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
+                    onClick={() => {
+                      setCurrentIndex(actualIndex);
+                      openLightbox();
+                    }}
+                  >
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      className="w-full h-full object-cover rounded-lg"
+                      style={{ minHeight: i === 0 ? '400px' : '180px' }}
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
+                      <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        {photo.alt}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
 
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Previous photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-            </button>
-            <button
-              onClick={goToNext}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Next photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-            </button>
+            {totalPages > 1 && (
+              <>
+                <button
+                  onClick={goToPreviousPage}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
+                  aria-label="Previous page"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="15 18 9 12 15 6" />
+                  </svg>
+                </button>
+                <button
+                  onClick={goToNextPage}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
+                  aria-label="Next page"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+
+                <div className="flex justify-center mt-6 gap-2 items-center">
+                  {Array.from({ length: totalPages }, (_, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setCurrentPage(i)}
+                      className={`w-2.5 h-2.5 rounded-full transition-colors ${
+                        i === currentPage ? 'bg-accent' : 'bg-gray-300 hover:bg-gray-400'
+                      }`}
+                      aria-label={`Go to page ${i + 1}`}
+                    />
+                  ))}
+                  <span className="text-sm ml-2" style={{ color: 'var(--text-muted)' }}>
+                    {currentPage + 1} / {totalPages}
+                  </span>
+                </div>
+              </>
+            )}
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
