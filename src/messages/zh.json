@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Stegastein观景台 | 挪威",
+    "description": "Stegastein观景台完整指南。开放时间、交通指南、照片和游客评价。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "画廊",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "Stegastein",
+    "subtitle": "矗立于奥兰峡湾650米高空的壮丽观景台",
+    "rating": "4.8(7,504)",
+    "reviewCount": "7,504 条评价",
+    "hours": "24小时开放",
+    "openMaps": "查看位置"
+  },
+  "intro": {
+    "title": "探索Stegastein",
+    "description": "Stegastein观景台是挪威最令人惊叹的建筑奇迹之一，位于奥兰峡湾上方650米处。这个30米长的悬臂式观景平台延伸出崖壁，让游客仿佛悬浮在空中，享受无与伦比的海峡全景。它是挪威最受欢迎的旅游景点之一，每年吸引数千名游客前来体验。",
+    "visitGuide": {
+      "title": "游览指南",
+      "items": [
+        "观景台24小时免费开放，无需门票。",
+        "从弗洛姆（Flåm）驾车约20分钟可达。",
+        "冬季道路可能积雪，建议驾驶防滑轮胎车辆。",
+        "最佳拍照时间是清晨或傍晚，光线柔和。"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "亮点特色",
+      "items": [
+        "悬臂式设计，延伸出崖壁30米",
+        "海拔650米，俯瞰奥兰峡湾",
+        "挪威最受欢迎的观景台之一",
+        "世界级建筑设计的代表作"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "探索Stegastein的建筑与自然奇观",
+    "sections": [
+      {
+        "id": "platform",
+        "title": "悬臂式观景台",
+        "content": "Stegastein观景台采用独特的悬臂式设计，长达30米的平台从崖壁向外延伸。游客可以站在透明玻璃栏杆前，俯瞰650米下方的奥兰峡湾。这种设计让人感觉仿佛悬浮在空中，带来前所未有的刺激体验。"
+      },
+      {
+        "id": "fjord",
+        "title": "奥兰峡湾",
+        "content": "从观景台可以俯瞰壮丽的奥兰峡湾（Aurlandsfjord），这是松恩峡湾（Sognefjord）的一个分支。峡湾两岸陡峭的山峰和清澈的水面构成了挪威最经典的自然景观。在晴朗的日子里，视野可以延伸数公里。"
+      },
+      {
+        "id": "architecture",
+        "title": "现代建筑设计",
+        "content": "Stegastein由著名建筑事务所设计的现代化观景平台于2006年落成。它采用混凝土和玻璃结构，既保证了安全性，又最大限度地减少了对自然环境的视觉干扰。平台的设计荣获多项国际建筑奖项。"
+      },
+      {
+        "id": "history",
+        "title": "历史与文化",
+        "content": "Stegastein位于挪威风景环路（Norwegian Scenic Route）上，这条路线连接了挪威最美丽的自然景观。观景台的建设旨在让游客以最壮观的方式体验挪威的峡湾风光。如今，它已成为挪威旅游的标志性景点。"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "照片画廊",
+    "subtitle": "Stegastein观景台和奥兰峡湾的壮丽景色",
+    "captions": [
+      "Stegastein观景台全景",
+      "奥兰峡湾远景",
+      "观景台悬臂结构",
+      "峡湾和山脉",
+      "冬季雪景",
+      "游客体验瞬间"
+    ],
+    "viewAll": "在Google地图上查看位置"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "游客反馈可通过Google地图查看（外部链接）。",
+    "moreReviews": "在Google地图上查看",
+    "items": [
+      {
+        "name": "张明",
+        "date": "2026年3月",
+        "rating": 5,
+        "text": "绝对令人叹为观止！站在观景台上俯瞰峡湾的感觉无法用语言形容。建筑设计非常巧妙，既安全又不破坏自然景观。"
+      },
+      {
+        "name": "李华",
+        "date": "2026年2月",
+        "rating": 5,
+        "text": "挪威之行的亮点！即使天气不好，景色依然壮观。建议早点到达，避开旅游大巴的高峰时段。"
+      },
+      {
+        "name": "王芳",
+        "date": "2026年1月",
+        "rating": 4,
+        "text": "自然美景令人震撼，不过停车区域有限。旺季时可能需要等待停车位。建议预留足够的时间游览。"
+      },
+      {
+        "name": "刘伟",
+        "date": "2025年12月",
+        "rating": 5,
+        "text": "站在650米高空俯瞰峡湾...这种体验终生难忘。这是我们挪威之旅最精彩的时刻！"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "如何到达",
+    "subtitle": "Bjørgavegen 83, 5745 Aurland, Norway",
+    "openMaps": "在Google地图上查看"
+  },
+  "footer": {
+    "rights": "© 2026 Stegastein独立旅游研究协会 · 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie设置",
+    "officialResourcesTitle": "相关资源与信息",
+    "officialLinks": {
+      "scenic": "国家风景路线",
+      "visitnorway": "挪威旅游局",
+      "norwaysbest": "挪威之最",
+      "visitsognefjord": "游览松恩峡湾",
+      "fjordnorway": "峡湾挪威"
+    },
+    "disclaimer": "本网站是独立的第三方旅游信息项目。我们与当地政府或任何其他官方机构无关。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年3月",
+    "sections": [
+      {
+        "heading": "1. 信息收集",
+        "content": "我们通常不会主动收集用户的个人身份信息。您通过联系表格或电子邮件提供的任何信息都将严格保密。"
+      },
+      {
+        "heading": "2. 信息使用",
+        "content": "我们收集的信息仅用于提供、维护和改进我们的服务，并与您沟通。我们不会出于营销目的将您的个人信息出售或分享给第三方。"
+      },
+      {
+        "heading": "3. Cookie和追踪",
+        "content": "我们使用Cookie和类似的追踪技术来追踪我们网站上的活动并保存某些信息。您可以指示浏览器拒绝所有Cookie或指示何时发送Cookie。"
+      },
+      {
+        "heading": "4. 数据安全",
+        "content": "您的数据安全对我们很重要。我们使用商业上可接受的手段来保护您的个人数据，尽管没有任何通过互联网传输的方法是100%安全的。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年3月",
+    "sections": [
+      {
+        "heading": "1. 条款接受",
+        "content": "通过访问和使用本网站，您同意受这些服务条款的约束。如果您不同意条款的任何部分，您不得访问服务。"
+      },
+      {
+        "heading": "2. 服务使用",
+        "content": "本网站是一个独立的第三方旅游信息项目。提供的信息仅用于一般信息目的。您同意负责任和合法地使用本网站。"
+      },
+      {
+        "heading": "3. 知识产权",
+        "content": "本网站上的所有内容，包括文本、图像和徽标，除非另有说明，否则均为网站所有者的财产。未经授权使用、复制或分发是严格禁止的。"
+      },
+      {
+        "heading": "4. 责任限制",
+        "content": "对于因使用或无法使用本网站或其中包含的信息而导致的任何直接、间接、附带或后果性损害，我们不承担任何责任。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie设置",
+    "description": "管理您的Cookie偏好。",
+    "essential": {
+      "title": "严格必要的Cookie",
+      "description": "网站基本功能所需。",
+      "badge": "始终活跃"
+    },
+    "analytics": {
+      "title": "分析Cookie",
+      "description": "帮助我们了解访客如何与网站互动。"
+    },
+    "marketing": {
+      "title": "营销Cookie",
+      "description": "用于跨网站追踪访客。"
+    },
+    "save": "保存偏好",
+    "saved": "偏好已保存！"
+  },
+  "officialManagement": {
+    "title": "关于Stegastein",
+    "text": "Stegastein观景台由奥兰德市政府和挪威公共道路管理局共同管理和维护。\n作为挪威风景环路的一部分，Stegastein是挪威最具标志性的建筑景观之一。该景点设有现代化的观景设施，确保游客在享受自然奇观的同时保证安全。"
+  },
+  "recommendations": {
+    "title": "探索更多",
+    "attractionsTitle": "附近景点",
+    "toursTitle": "推荐游览和活动",
+    "attractions": [
+      {"name": "弗洛姆铁路", "url": "https://www.flamsbana.no"},
+      {"name": "松恩峡湾游船", "url": "https://www.visitfjords.com"},
+      {"name": "斯特加斯坦咖啡馆", "url": "https://www.google.com/maps"}
+    ],
+    "tours": [
+      {"name": "挪威缩影之旅", "url": "https://www.norwaynutshell.com"},
+      {"name": "峡湾游船体验", "url": "https://www.fjordcruise.no"},
+      {"name": "山地徒步之旅", "url": "https://www.aurland.com"}
+    ]
+  }
+}

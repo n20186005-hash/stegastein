@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Stegastein Viewing Platform | Norway",
+    "description": "Complete guide to Stegastein Viewing Platform in Norway. Hours, directions, photos and reviews."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Stegastein",
+    "subtitle": "A spectacular viewing platform 650m above Aurlandsfjord",
+    "rating": "4.8(7,504)",
+    "reviewCount": "7,504 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Stegastein",
+    "description": "Stegastein Viewing Platform is one of Norway's most breathtaking architectural wonders, located 650 meters above the Aurlandsfjord. This 30-meter cantilevered viewing platform extends out from the cliff, giving visitors the sensation of floating in mid-air while enjoying unparalleled panoramic views of the fjord. It is one of Norway's most popular tourist attractions, drawing thousands of visitors each year.",
+    "visitGuide": {
+      "title": "Visit Guide",
+      "items": [
+        "The viewing platform is open 24/7, no tickets required.",
+        "Approximately 20 minutes drive from Flåm via Route 243.",
+        "Winter roads may be snowy, recommend vehicles with winter tires.",
+        "Best lighting for photography is early morning or evening."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Cantilevered design extending 30m from cliff edge",
+        "650m above sea level overlooking Aurlandsfjord",
+        "One of Norway's most popular viewing platforms",
+        "A masterpiece of world-class architectural design"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Explore Stegastein's Architectural and Natural Wonders",
+    "sections": [
+      {
+        "id": "platform",
+        "title": "Cantilevered Viewing Platform",
+        "content": "Stegastein Viewing Platform features a unique cantilevered design, with a 30-meter-long platform extending out from the cliff edge. Visitors can stand before the transparent glass railings and look down at the Aurlandsfjord 650 meters below. This design creates a sensation of floating in mid-air, delivering an unprecedented thrilling experience."
+      },
+      {
+        "id": "fjord",
+        "title": "Aurlandsfjord",
+        "content": "From the viewing platform, you can overlook the magnificent Aurlandsfjord, a branch of the Sognefjord. The steep mountain peaks on both sides of the fjord and the crystal-clear water create Norway's most classic natural landscape. On clear days, the view can extend for several kilometers."
+      },
+      {
+        "id": "architecture",
+        "title": "Modern Architectural Design",
+        "content": "Designed by renowned architects, the modern Stegastein viewing platform was completed in 2006. It uses concrete and glass structures that ensure safety while minimizing visual intrusion on the natural environment. The platform's design has won multiple international architectural awards."
+      },
+      {
+        "id": "history",
+        "title": "History and Culture",
+        "content": "Stegastein is located on the Norwegian Scenic Route, which connects Norway's most beautiful natural landscapes. The viewing platform was built to allow visitors to experience Norway's fjord scenery in the most spectacular way. Today, it has become an iconic tourist destination in Norway."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Stunning views of Stegastein and Aurlandsfjord",
+    "captions": [
+      "Panoramic view of Stegastein",
+      "Aurlandsfjord scenery",
+      "Cantilevered structure",
+      "Fjord and mountains",
+      "Winter snow scenery",
+      "Visitor experience moments"
+    ],
+    "viewAll": "View locations on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View locations on Google Maps",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Absolutely breathtaking! The sensation of standing on the platform overlooking the fjord is indescribable. The architectural design is brilliant - safe yet harmonious with nature."
+      },
+      {
+        "name": "John D.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "A must-see when visiting Norway! Even in bad weather, the view is spectacular. Arrive early to avoid tour bus peak hours."
+      },
+      {
+        "name": "Emma W.",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "Stunning natural beauty, though the parking area is limited. Be prepared to wait during peak season. Allow plenty of time for your visit."
+      },
+      {
+        "name": "Michael T.",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "Standing 650 meters above the fjord... words cannot describe the feeling. The highlight of our Norway trip!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Bjørgavegen 83, 5745 Aurland, Norway",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Stegastein Independent Travel Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "scenic": "National Scenic Routes",
+      "visitnorway": "Visit Norway",
+      "norwaysbest": "Norway's best",
+      "visitsognefjord": "Visit Sognefjord",
+      "fjordnorway": "Fjord Norway"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Stegastein",
+    "text": "Stegastein Viewing Platform is jointly managed and maintained by the Aurland Municipality and the Norwegian Public Roads Administration.\nAs part of the Norwegian Scenic Route, Stegastein is one of Norway's most iconic architectural landscapes. The site features modern viewing facilities ensuring visitor safety while enjoying the natural wonder."
+  },
+  "recommendations": {
+    "title": "Discover More",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {"name": "Flåm Railway", "url": "https://www.flamsbana.no"},
+      {"name": "Sognefjord Cruise", "url": "https://www.visitfjords.com"},
+      {"name": "Stegastein Café", "url": "https://www.google.com/maps"}
+    ],
+    "tours": [
+      {"name": "Norway in a Nutshell Tour", "url": "https://www.norwaynutshell.com"},
+      {"name": "Fjord Cruise Experience", "url": "https://www.fjordcruise.no"},
+      {"name": "Mountain Hiking Tours", "url": "https://www.aurland.com"}
+    ]
+  }
+}
